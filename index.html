@@ -1,0 +1,144 @@
+<!--
+		///////////////////////////////////////////////////////////////////////////////////////
+		// SYST10199 - Web Programmimg 
+		// Instructor: Amandeep Kaur
+		// Assignment 4 : Tim Hortons Ordering Coffee
+		// current page : index.html 
+		// page task : Order coffee form : select quantity, cup size, sugar and cream
+		// Written by : Jieun Kwon
+		// Written Date : March 16, 2018
+		// updated Date : March 18, 2018
+		// 
+		// **related page**
+		// index.html - order form 
+		// confirm.php - order confirmation
+		// scripts/formchk.js - all javascript code
+		// css/main.css - all css 
+		///////////////////////////////////////////////////////////////////////////////////////
+-->
+<html>
+	<head>
+		<title>Tim Hortons</title> 
+		
+		<!-- style sheet -->
+		<link href = "css/main.css" type = "text/css" rel = "stylesheet"/> 
+	</head>
+	<body>
+
+	<!-- Form Start --> 
+		  <form name="timhortons" action="confirm.php" method="post">
+		  <table border="0" align="center" >
+			 <tr>
+				<td > 
+				<!-- Logo Image -->
+					<img src="images/logo.png" width="450">
+				</td> 
+			</tr>
+		</table>
+		 <table border="0" align="center" class="tbl_main">
+			 <tr>
+				<td height="20" > 
+					<h2> Original Blend Coffee Order</h2>
+					<img src="images/original.png" width="50">
+				</td> 
+			</tr>  
+			 
+			<tr>
+				<td align="center" height=0> 
+				<!-- Print Error Message from js-script --> 
+					 <p id="chk_result"></p>
+				</td> 
+			</tr> 
+			
+			<tr>
+				<td height="20" align="center"> 
+					<table class="tbl_inside" border="0">
+						<tr>
+							<!-- Quantity -->
+							<td width="80px" height="30" align="right" class="tbl_td"> Quantity :</td>
+							<td><input type="number" name="qty" min="1" max="20" value="1"></td> 
+						</tr>
+					</table>
+				</td> 
+			</tr> 
+			<tr>
+				<td height="20" align="center"> 
+					<table class="tbl_inside" border="0">
+						<tr>
+							<!-- Size -->
+							<td height="30" width="80" class="tbl_td"> 
+								 Size :
+							</td>
+							<td>
+								 <select name="size" size="1"> 
+									<option value="s">Small</option>
+									<option value="m" selected>Medium</option>
+									<option value="l">Large</option>
+									<option value="xl">Extra Large</option>
+								</select>
+							</td> 
+						</tr>
+					</table>
+				</td> 
+			</tr> 
+			<tr>
+				<td height="20" align="center"> 
+				<!-- Sugar -->
+					<table class="tbl_inside" border="0">
+						<tr>
+							<td height="30" width="80" class="tbl_td"> 
+								Sugars :
+							</td>
+							<td>
+								<input type="number" name="sugar" min="0" max="5" value="0"> 
+							</td> 
+						</tr>
+					</table>
+				</td> 
+			</tr>  
+			<tr>
+				<td height="20" align="center"> 
+				<!-- Creams -->
+					<table class="tbl_inside" border="0">
+						<tr>
+							<td height="30" width="80" class="tbl_td"> 
+								Creams :
+							</td>
+							<td>
+								<input type="number" name="cream" min="0" max="5" value="0">				 
+							</td> 
+						</tr>
+					</table>
+				</td> 
+			</tr> 
+
+			<tr>
+				<td height="10"  > </td>
+			</tr>
+			<!-- Buttons --> 
+			<tr>
+				<td height="40" align="center" >  
+					 <input type = "button" value="Reset" class="bt_general" name="btn_reset" onclick="javascript:form_reset();"> 
+					 <input type = "button" value="Order" class="bt_general" name="btn_submit" onclick="javascript:form_submit();">
+				</td>
+			</tr>
+			<tr>
+				<td height="10"  > </td>
+			</tr>
+		<!-- END: Buttons -->
+		</table>
+		</form>
+		<!-- Extenal script --> 
+		<script src="scripts/formchk.js"></script> 
+		<!-- Foot Image -->
+		<div >
+			<img src="images/bg2.jpg" width="450" />
+		</div>
+		<!-- Link to my web page -->
+		<div id="home_link">
+			<a href="http://kwonjie.dev.fast.sheridanc.on.ca/assignments/a4/" target="_blank" >Go to Jieun's web page<a>
+		</div>
+ 
+	</body>
+</html>
+	

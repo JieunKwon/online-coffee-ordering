@@ -1,0 +1,106 @@
+			/*************************************/
+			/* 	Intro page & general css		 */
+			/*************************************/
+			
+			body {
+				margin:20px;
+				text-align:center; 
+				color:#630200;
+				/*background:url("../images/bg.jpg");
+				background-repeat:none;
+				background-position:center:
+				*/
+				
+			}
+			
+			.tbl_main{
+				background-color: #FFFFFF;
+				border:thin solid #993800;
+				margin:10px;
+				width:450px;
+				margin:10px auto; 
+				text-align:left; 
+				font-size:14px; 
+				color:##004554;
+				text-align:center;
+
+			}
+ 
+ 
+			.tbl_td{ 
+				font-weight:bold;				
+				padding-left:20px;
+				padding-right:20px;
+				text-align:right;
+
+			}
+			
+			.tbl_td2{ 
+				font-weight:bold;				
+				padding-left:20px;
+				padding-right:20px;
+				text-align:center;
+				vertical-align:middle;
+
+			}
+			
+			.tbl_inside{ 
+				width:300px;
+				border-radius:10px;
+				background-color:#FAECC5; 	
+				padding-left:30px;
+				margin: 10px;
+
+			}
+			
+			#chk_result{
+				 
+				height:0px; 
+				margin:10px auto; 
+				text-align:center;				
+				color:#CC3D3D;
+				visibility:hidden;
+				/*visibility:visible;*/
+
+			}
+			
+			.txt_general{ 
+				background-color:#FFFFFF;
+				border:thin solid #004554; 
+			}
+			
+			.txt_general:focus{
+				background-color:#B2EBF4;
+				border:thin solid #004554; 
+			}
+			
+			.bt_general{
+				width: 150px;
+				height: 25px;
+				background-color:#AB4A12;
+				border:thin solid #993800; 
+				color: #ffffff;
+				border-radius:5px;
+			}
+			
+			.bt_general:hover{
+				background-color:#CF6E36;
+				border:thin solid #993800; 
+				color: #ffffff;
+			}
+
+			 
+			#home_link{
+				font-size:20px; 
+				font-family:Chiller;
+				color:#22741C;
+				text-decoration:none;
+			}
+			
+			a{
+				color:#22741C;
+				text-decoration:none;
+			}
+			
+			
+			 
