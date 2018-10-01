@@ -22,5 +22,5 @@ Program include
     (four different sizes; small, medium, large and extra-large)
 5.	If number of creams and/or sugars is more than 1, display cream and/or sugar images.
     Repeat the images those many times, as selected by the user.
-6.	You can decide the price of coffee. Display the cost including the tax.
+6.	The confirm page decides the price of coffee. Finally, display the cost including the tax.
 
