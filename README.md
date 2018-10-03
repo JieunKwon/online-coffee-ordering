@@ -1,5 +1,5 @@
 # Tim Horton Coffee Order- PHP & MySQL 
-# HTML5/ CSS/ PHP / JS / MySQL
+# HTML5 / CSS/ PHP / JS / MySQL
 User can order Tim Horton coffee 
 
 @ Created Data : March 2018
@@ -7,6 +7,7 @@ User can order Tim Horton coffee
  
 Program description
 --------------------
+
  User can order Tim Horton coffee using this page. 
  User can choose the quantity of coffee, cup size and the quantity of sugar or cream.
  After submitting, the page show the total cost with images of coffee, sugar, and cream. 
@@ -14,6 +15,7 @@ Program description
  
 Program include
 -------------------
+
 1.	Use the appropriate HTML5 input elements and attributes to control what the user can enter, and avoid errors on the client side 
    (i.e. negative numbers, non-numbers, etc.).
 2.	Use POST to send parameters.
