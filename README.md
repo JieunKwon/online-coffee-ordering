@@ -1,4 +1,4 @@
-# Tim Horton Coffee Order- PHP & MySQL 
+# Tim Horton Coffee Order - PHP & MySQL 
 
 # HTML5 / CSS/ PHP / JS / MySQL
 
