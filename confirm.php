@@ -1,7 +1,6 @@
 	<!--
 		///////////////////////////////////////////////////////////////////////////////////////
 		// SYST10199 - Web Programmimg 
-		// Instructor: Amandeep Kaur
 		// Assignment 4 : Tim Hortons Ordering Coffee
 		// current page : confirm.php 
 		// page task : 
@@ -155,10 +154,7 @@
 		<div >
 			<img src="images/bg2.jpg" width="450" />
 		</div>
-		<!-- Link to my web page -->
-		<div>
-			<a href="http://kwonjie.dev.fast.sheridanc.on.ca/assignments/a4/" target="_blank" id="home_link">Go to Jieun's web page<a>
-		</div>
+		
 	</body>
 </html>
 		
