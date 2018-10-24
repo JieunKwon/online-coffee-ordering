@@ -1,7 +1,6 @@
 /* 
 		///////////////////////////////////////////////////////////////////////////////////////
 		// SYST10199 - Web Programmimg 
-		// Instructor: Amandeep Kaur
 		// Assignment 4 : Tim Hortons Ordering Coffee
 		// current page : formchk.js 
 		// page task : form validation : number value of quantity(>0), sugar and cream
