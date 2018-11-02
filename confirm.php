@@ -1,13 +1,13 @@
 	<!--
 		///////////////////////////////////////////////////////////////////////////////////////
 		// Tim Hortons Ordering Coffee
-
+		//
 		// current page : confirm.php 
 		// page task : 
 		//	1. Calculate cost
 		//	2. print coffee image according to the cup size
 		//	3. print image of sugar and cream
-
+		//
 		// Written by : Jieun Kwon
 		// Written Date : March 18, 2018
 		// updated Date : March 18, 2018
