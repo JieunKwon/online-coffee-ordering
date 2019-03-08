@@ -1,6 +1,6 @@
 # Tim Horton Coffee Order - PHP & MySQL 
 
-# HTML5 / CSS/ PHP / JS / MySQL
+# HTML5 / CSS/ PHP / JavaScript / MySQL
 
 User can order Tim Horton coffee 
 
